@@ -1,4 +1,4 @@
-package com.example.agile_card_selector
+package com.voostack.agilecardselector
 
 import io.flutter.embedding.android.FlutterActivity
 
