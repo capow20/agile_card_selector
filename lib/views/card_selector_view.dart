@@ -31,7 +31,7 @@ class CardSelectorView extends StatelessWidget {
                   children: [
                     StackedCardCarousel(
                       spaceBetweenItems: sideLength,
-                      items: !state.useTshirtSizes
+                      items: state.useTshirtSizes
                           ? state.tShirtSizes
                               .map((e) => GestureDetector(
                                     onTap: () => context.read<CardCubit>().setSelectedSize(e),
